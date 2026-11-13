@@ -12,8 +12,10 @@ dependencies = [
 ]
 
 [project.optional-dependencies]
-dev = [
-    "pytest",
+dev = ["pytest"]
+dashboard = [
+    "streamlit>=1.40",
+    "pandas>=2.2",
 ]
 
 [tool.setuptools.packages.find]
